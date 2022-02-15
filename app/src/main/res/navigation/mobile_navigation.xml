@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.layoutbest.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_makanan"
+        android:name="com.example.layoutbest.ui.makanan.MakananFragment"
+        android:label="@string/menu_makanan"
+        tools:layout="@layout/fragment_makanan" />
+
+    <fragment
+        android:id="@+id/nav_dapur"
+        android:name="com.example.layoutbest.ui.Dapur.DapurFragment"
+        android:label="@string/menu_dapur"
+        tools:layout="@layout/fragment_dapur" />
+    <fragment
+        android:id="@+id/nav_sehat"
+        android:name="com.example.layoutbest.ui.sehat.SehatFragment"
+        android:label="@string/menu_sehat"
+        tools:layout="@layout/fragment_sehat" />
+    <fragment
+        android:id="@+id/nav_anak"
+        android:name="com.example.layoutbest.ui.anak.AnakFragment"
+        android:label="@string/menu_anak"
+        tools:layout="@layout/fragment_anak" />
+</navigation>
